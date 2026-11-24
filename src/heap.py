@@ -1,8 +1,5 @@
-"""Module B, part 1: a binary min-heap built on our DynamicArray.
+#Module B, part 1: a binary min-heap built on our DynamicArray.
 
-The smallest item always sits at position 0. We use it for Top-K:
-keep a heap of size K and let the weakest candidate fall out.
-"""
 
 from records import DynamicArray
 
