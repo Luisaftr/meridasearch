@@ -1,8 +1,4 @@
-"""Module A, part 4: trie for neighborhood-name autocomplete.
-
-Question it answers: "Which neighborhoods start with 'san'?"
-Each node keeps its children in a small linear list (no dict, no set).
-"""
+#Module A, part 4: trie for neighborhood-name autocomplete.
 
 import unicodedata
 from records import DynamicArray
