@@ -1,5 +1,9 @@
 """Module A, part 1: our own linear structure + catalog loader.
 
+DynamicArray is a tiny growable array (it doubles its capacity when full).
+It is the "backbone" that holds every record, and the other structures
+only store *positions* (indices) into it.
+"""
 
 
 class DynamicArray:
@@ -17,6 +21,11 @@ class DynamicArray:
         if index < 0 or index >= self._size:
             raise IndexError("DynamicArray index out of range")
         return self._slots[index]
+
+    def __setitem__(self, index, value):
+        if index < 0 or index >= self._size:
+            raise IndexError("DynamicArray index out of range")
+        self._slots[index] = value
 
     def __iter__(self):
         for i in range(self._size):
