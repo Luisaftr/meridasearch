@@ -1,4 +1,4 @@
-"""Module A, part 3: plain binary search tree for range queries.
+#Module A, part 3: plain binary search tree for range queries.
 
 
 from records import DynamicArray
