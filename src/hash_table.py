@@ -1,4 +1,4 @@
-"""Module A, part 2: hash table with separate chaining.
+#Module A, part 2: hash table with separate chaining.
 
 
 from records import DynamicArray
