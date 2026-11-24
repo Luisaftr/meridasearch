@@ -1,9 +1,5 @@
 """Module A, part 2: hash table with separate chaining.
 
-Question it answers: "Which neighborhoods share postal code X?" in ~O(1).
-Collision strategy: every bucket is a small linked list (chaining).
-Hash function: FNV-1a, written by hand (we never call Python's hash()).
-"""
 
 from records import DynamicArray
 
