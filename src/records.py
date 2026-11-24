@@ -1,9 +1,4 @@
-"""Module A, part 1: our own linear structure + catalog loader.
-
-DynamicArray is a tiny growable array (it doubles its capacity when full).
-It is the "backbone" that holds every record, and the other structures
-only store *positions* (indices) into it.
-"""
+#Module A, part 1: our own linear structure + catalog loader.
 
 
 class DynamicArray:
