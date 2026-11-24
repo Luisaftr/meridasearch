@@ -1,7 +1,7 @@
 # MeridaSearch
 
 A small, sweet search engine for Mexico's postal code catalog (about 160,000 rows from Correos de México).
-Built by Group 11 to show that the right data structure beats brute force. 🍓
+Built by Group 11 to show that the right data structure beats brute force. 
 
 ## What is inside (so far)
 
@@ -16,7 +16,7 @@ Built by Group 11 to show that the right data structure beats brute force. 🍓
 | B · Sorting | Insertion sort (quadratic), merge sort (divide and conquer), heap sort (heap-based), plus multi-key sorting | `src/sorting.py` |
 | B · Ranking | Top-K with a size-K heap, e.g. the municipalities with the most neighborhoods | `src/ranking.py` |
 
-Coming next: graph (C), undo/redo and queue (D), benchmark, and the LRU cache booster. ✨
+Coming next: graph (C), undo/redo and queue (D), benchmark, and the LRU cache booster. 
 
 ## How to run
 
