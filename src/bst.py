@@ -1,9 +1,5 @@
 """Module A, part 3: plain binary search tree for range queries.
 
-Question it answers: "Give me every code between 97000 and 97299."
-Everything is iterative on purpose, so a lopsided tree can never hit
-Python's recursion limit.
-"""
 
 from records import DynamicArray
 
